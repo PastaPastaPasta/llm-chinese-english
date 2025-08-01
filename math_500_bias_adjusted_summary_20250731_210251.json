@@ -1,0 +1,18 @@
+{
+  "total_problems": 500,
+  "complete_both": 384,
+  "successful_both": 367,
+  "english_raw_accuracy": 0.804,
+  "chinese_raw_accuracy": 0.906,
+  "english_adjusted_accuracy": 0.9739583333333334,
+  "chinese_adjusted_accuracy": 0.9713541666666666,
+  "raw_accuracy_difference": 0.10199999999999998,
+  "adjusted_accuracy_difference": -0.0026041666666666665,
+  "bias_magnitude": 0.10460416666666665,
+  "avg_english_tokens_successful": 2880.133514986376,
+  "avg_chinese_tokens_successful": 1763.2806539509536,
+  "token_efficiency_ratio_successful": 0.612221844847111,
+  "successful_problems_count": 367,
+  "english_tokens_std": 2125.782160561813,
+  "chinese_tokens_std": 983.9221493048931
+}

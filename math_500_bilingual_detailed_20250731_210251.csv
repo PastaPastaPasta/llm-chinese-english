@@ -1,0 +1,501 @@
+problem_id,subject,level,english_complete,chinese_complete,english_correct,chinese_correct,english_tokens,chinese_tokens,english_output_tokens,chinese_output_tokens,english_answer,chinese_answer,expected_answer,token_ratio_cn_en,agreement,translation_tokens
+1,Precalculus,1,True,True,True,True,954,1000,860,909,"(15, -29)","(15, -29)","(15,-29)",1.0482180293501049,True,0
+2,Algebra,1,True,True,True,True,945,653,859,564,2000,2000,2000,0.691005291005291,True,0
+3,Algebra,1,True,True,True,True,1193,1163,1125,1097,1600,1600,1600,0.9748533109807209,True,0
+4,Counting & Probability,1,True,True,True,True,1025,922,923,828,\frac{1}{4},\frac{1}{4},\frac14,0.8995121951219512,True,273
+5,Algebra,1,True,True,True,True,1098,1031,1022,949,7,7,7,0.9389799635701275,True,220
+6,Algebra,1,True,True,True,True,752,829,690,769,1,1,1,1.1023936170212767,True,184
+7,Precalculus,1,True,True,True,True,946,873,854,786,-41,-41,-41,0.9228329809725159,True,241
+8,Algebra,1,True,True,True,True,1624,1555,1550,1484,350,350,350,0.9575123152709359,True,201
+9,Prealgebra,1,True,True,True,True,1040,978,947,884,\frac{13}{15},\frac{13}{15},\frac{13}{15},0.9403846153846154,True,261
+10,Algebra,1,True,True,True,True,924,770,858,713,4,4,4,0.8333333333333334,True,183
+11,Algebra,1,True,True,True,True,1276,1042,1216,987,9901,9901,9901,0.8166144200626959,True,173
+12,Algebra,1,True,True,True,True,915,1048,794,939,65,65,65,1.1453551912568305,True,289
+13,Number Theory,1,True,True,True,True,532,772,476,718,0,0,0,1.4511278195488722,True,170
+14,Intermediate Algebra,1,True,True,True,True,5221,2348,5133,2259,"-2, 1","1, -2","-2,1",0.44972227542616355,True,236
+15,Prealgebra,1,True,True,True,True,1406,951,1342,889,1,1,1,0.6763869132290184,True,176
+16,Algebra,1,True,True,True,True,988,890,918,823,18,18,18,0.9008097165991903,True,199
+17,Algebra,1,True,True,True,True,1967,1920,1888,1844,4,4,4,0.9761057447890188,True,215
+18,Algebra,1,True,True,True,True,1218,1158,1145,1088,47,47,47,0.9507389162561576,True,205
+19,Algebra,1,True,True,True,True,993,878,919,805,11,11,11,0.8841893252769386,True,209
+20,Prealgebra,1,True,True,True,True,1044,1258,957,1183,9,9,9,1.2049808429118773,True,228
+21,Number Theory,1,True,True,True,True,1465,957,1362,870,2,2,2,0.6532423208191126,True,267
+22,Algebra,1,True,True,True,True,1016,1074,953,1014,4,4,4,1.0570866141732282,True,185
+23,Counting & Probability,1,True,True,True,True,1035,1114,951,1028,3,3,3,1.076328502415459,True,244
+24,Prealgebra,1,True,True,True,True,1017,887,951,823,2,2,2,0.872173058013766,True,193
+25,Number Theory,1,True,True,True,True,1387,1446,1327,1392,0,0,0,1.0425378514780101,True,170
+26,Prealgebra,1,True,True,True,True,985,819,903,747,240,240,240,0.8314720812182741,True,231
+27,Algebra,1,True,True,True,True,1933,1973,1865,1908,1,1,1,1.0206932229694774,True,196
+28,Intermediate Algebra,1,True,True,True,True,1005,1289,945,1228,(a + 5)(b + 2),(a + 5)(b + 2),(a+5)(b+2),1.2825870646766169,True,182
+29,Algebra,1,True,True,True,True,1235,1092,1157,1015,137\frac{1}{2},137\frac{1}{2},137 \frac{1}{2},0.8842105263157894,True,219
+30,Intermediate Algebra,1,True,True,True,True,2427,1891,2326,1794,3,3,3,0.7791512154923774,True,270
+31,Prealgebra,1,True,True,True,False,1662,1827,1573,1743,east,东,\text{east},1.0992779783393503,False,238
+32,Precalculus,1,True,True,True,True,2167,1582,2011,1428,\sqrt{51},\sqrt{51},\sqrt{51},0.730041532071989,True,370
+33,Geometry,1,True,True,True,True,6315,3089,6092,2864,180,180,180^\circ,0.48915281076801265,True,501
+34,Intermediate Algebra,1,True,True,True,True,1832,1737,1742,1645,22,22,22,0.9481441048034934,True,238
+35,Algebra,1,True,True,True,True,1649,1308,1585,1249,26000,26000,26000,0.7932080048514251,True,177
+36,Number Theory,1,True,True,True,True,1471,1517,1394,1440,1,1,1,1.0312712440516656,True,212
+37,Intermediate Algebra,1,True,True,True,True,1485,973,1422,914,22,22,22,0.6552188552188553,True,185
+38,Prealgebra,1,True,True,True,True,1001,1060,932,989,4,4,4,1.0589410589410588,True,190
+39,Intermediate Algebra,1,True,True,True,True,1156,906,1087,838,"(5, \infty)","(5, \infty)","(5,\infty)",0.7837370242214533,True,200
+40,Number Theory,1,True,True,True,True,1472,1391,1375,1299,2,2,2,0.9449728260869565,True,244
+41,Intermediate Algebra,1,True,True,True,True,1179,1642,1111,1578,-50,-50,-50,1.3927056827820186,True,188
+42,Geometry,1,False,True,False,False,8385,6842,8191,6648,. i need to think about it,56,28,0.8159809183064997,True,440
+43,Algebra,1,True,True,True,True,965,1028,854,918,10,10,10,1.0652849740932642,True,283
+44,Number Theory,2,True,True,True,True,2012,1856,1910,1768,49,49,49,0.9224652087475149,True,252
+45,Prealgebra,2,True,True,True,True,896,1087,822,1016,23,23,23,1.2131696428571428,True,205
+46,Algebra,2,True,True,True,True,1786,1409,1670,1293,49,49,49,0.7889137737961927,True,288
+47,Prealgebra,2,True,True,True,True,1298,1065,1233,1002,326.5,326.5,326.5,0.8204930662557781,True,184
+48,Algebra,2,True,True,True,True,1533,1095,1457,1029,4005,4005,4005,0.7142857142857143,True,200
+49,Precalculus,2,True,True,False,True,1654,1851,1554,1749,E,E,\text{(E)},1.1191051995163241,False,266
+50,Algebra,2,True,True,True,True,954,1062,876,989,"(-1, 6)","(-1, 6)","(-1,6)",1.1132075471698113,True,214
+51,Algebra,2,True,True,True,True,822,910,755,846,5r^5,5r^5,5r^5,1.1070559610705597,True,193
+52,Prealgebra,2,True,True,True,True,1027,894,963,833,6,6,6,0.8704965920155794,True,187
+53,Intermediate Algebra,2,True,True,True,True,5235,4505,5138,4405,even,\text{偶函数},\text{even},0.8605539637058262,True,259
+54,Algebra,2,True,True,True,True,784,858,720,796,3,3,3,1.094387755102041,True,188
+55,Precalculus,2,True,True,True,True,3279,1708,3199,1633,"(-\infty, 0]","(-\infty, 0]","(-\infty, 0]",0.5208905154010369,True,213
+56,Algebra,2,True,True,True,True,850,750,770,674,7,7,7,0.8823529411764706,True,218
+57,Algebra,2,True,True,True,True,1262,1287,1194,1222,2,2,2,1.0198098256735342,True,191
+58,Counting & Probability,2,True,True,True,True,1601,1119,1540,1066,1260,1260,1260,0.6989381636477202,True,179
+59,Algebra,2,True,True,True,True,1108,1147,1034,1078,8000,8000,8000,1.0351985559566788,True,197
+60,Number Theory,2,True,True,True,True,1621,1491,1545,1425,9,9,9,0.919802590993214,True,207
+61,Intermediate Algebra,2,True,True,True,True,1226,1528,1132,1437,\frac{4}{3},\frac{4}{3},\frac43,1.2463295269168027,True,249
+62,Algebra,2,True,True,True,True,1115,1117,1023,1025,29,29,29,1.0017937219730941,True,249
+63,Intermediate Algebra,2,True,True,True,True,7551,4907,7366,4723,\text{B},B,\text{(B)},0.6498477022910872,True,442
+64,Prealgebra,2,True,True,True,True,891,845,833,790,4.5,4.5,4.5,0.9483726150392817,True,174
+65,Prealgebra,2,True,True,True,True,827,693,757,624,15x - 80,15x - 80,15x - 80,0.837968561064087,True,196
+66,Prealgebra,2,True,True,True,True,1922,1495,1843,1413,6,6,6,0.7778355879292403,True,216
+67,Number Theory,2,True,True,True,True,1424,1573,1357,1512,18,18,18,1.1046348314606742,True,186
+68,Counting & Probability,2,True,True,True,True,1914,1247,1857,1193,4495,4495,4495,0.6515151515151515,True,167
+69,Intermediate Algebra,2,True,True,True,True,1992,1266,1882,1158,5,5,5,0.6355421686746988,True,282
+70,Number Theory,2,True,True,True,True,1674,1368,1618,1315,4,4,4,0.8172043010752689,True,168
+71,Prealgebra,2,True,True,True,True,1596,1272,1524,1199,5,5,5,0.7969924812030075,True,207
+72,Number Theory,2,True,True,True,True,5111,1435,5029,1358,16,16,16,0.28076697319506944,True,213
+73,Counting & Probability,2,True,True,True,True,1063,822,989,751,28,28,28,0.7732831608654751,True,213
+74,Precalculus,2,True,True,True,True,1441,1336,1307,1211,"\left( \dfrac{3}{2}, -13 \right)","\left( \frac{3}{2}, -13 \right)","\left( \frac{3}{2}, -13 \right)",0.9271339347675226,True,325
+75,Counting & Probability,2,True,True,True,True,1732,1240,1653,1167,58500,58500,"58,500",0.7159353348729792,True,221
+76,Intermediate Algebra,2,True,True,True,True,3027,3498,2929,3406,\text{ellipse},\text{椭圆},\text{ellipse},1.155599603567889,True,255
+77,Prealgebra,2,True,True,True,True,1018,1039,944,970,17,17,17,1.0206286836935168,True,203
+78,Precalculus,2,False,True,False,True,8341,1358,8191,1206,. i need to think about it,30,30^\circ,0.16281021460256564,False,350
+79,Algebra,2,True,True,True,True,874,679,788,595,0,0,0,0.7768878718535469,True,228
+80,Algebra,2,True,True,True,True,1016,711,951,652,2,2,2,0.6998031496062992,True,188
+81,Precalculus,2,True,True,True,True,3378,2348,3288,2261,0.09,0.09,\frac{9}{100},0.6950858496151568,True,241
+82,Intermediate Algebra,2,True,True,True,True,6157,1624,6067,1534,\dfrac{6}{5},\dfrac{6}{5},\frac65,0.26376482052947864,True,239
+83,Geometry,2,True,True,True,True,1372,1174,1291,1096,31,31,31,0.8556851311953353,True,222
+84,Prealgebra,2,True,True,True,False,6260,2006,6059,1956,21,\text{缺少必要的尺寸},21,0.32044728434504793,False,300
+85,Prealgebra,2,True,True,True,True,1564,1191,1496,1127,60,60,60,0.7615089514066496,True,188
+86,Intermediate Algebra,2,True,True,True,True,7421,3734,7335,3649,3,3,3,0.5031666891254548,True,231
+87,Geometry,2,True,True,True,True,1292,967,1210,895,3,3,3,0.7484520123839009,True,219
+88,Geometry,2,True,True,True,True,1173,1113,1090,1035,4,4,4,0.948849104859335,True,223
+89,Algebra,2,True,True,True,False,1774,1226,1669,1137,8,\dfrac{2}{3},8,0.6910935738444194,False,258
+90,Geometry,2,False,False,True,False,8481,8269,8191,8191,", which makes sense because the condition ad=bd=cd with d on bc forces angle at a to be right, regardless of the other angles (as long as they're positive and sum correctly)",，说明可能我的图形理解有误,90^\circ,0.9750029477655937,False,397
+91,Geometry,2,True,True,True,True,1341,1143,1271,1079,12,12,12,0.8523489932885906,True,197
+92,Algebra,2,True,True,True,True,1461,1452,1387,1380,\frac{9a + 11}{20},\frac{9a + 11}{20},\frac{11+9a}{20},0.9938398357289527,True,208
+93,Algebra,2,True,True,True,True,4124,1812,4034,1719,12,12,12,0.4393792434529583,True,237
+94,Precalculus,2,False,True,True,True,8258,4549,8191,4485,-\sqrt{3},-\sqrt{3},-\sqrt{3},0.5508597723419715,True,184
+95,Algebra,2,True,True,True,True,891,850,838,800,6,6,6,0.9539842873176206,True,161
+96,Geometry,2,True,True,True,True,1627,1396,1521,1289,"(2, 4)","(2, 4)","(2,4)",0.858020897357099,True,277
+97,Prealgebra,2,True,True,True,True,859,991,797,932,2k + 2,2k + 2,2k+2,1.1536670547147847,True,183
+98,Prealgebra,2,True,True,True,True,1120,694,1043,626,1251,1251,1251,0.6196428571428572,True,207
+99,Precalculus,2,True,True,True,True,1336,902,1244,807,"(3, \frac{\pi}{2})","(3, \frac{\pi}{2})","\left( 3, \frac{\pi}{2} \right)",0.6751497005988024,True,248
+100,Precalculus,2,True,True,True,True,1834,1575,1763,1507,\cot x,\cot x,\cot x,0.8587786259541985,True,201
+101,Intermediate Algebra,2,True,True,True,True,1384,1553,1300,1476,0,0,0,1.1221098265895955,True,224
+102,Prealgebra,2,True,True,True,True,1645,1141,1538,1035,200,200,200,0.6936170212765957,True,273
+103,Prealgebra,2,True,True,False,True,2758,2323,2528,2098,15,15,15\mbox{ cm}^2,0.8422770123277737,False,503
+104,Geometry,2,True,True,True,True,1333,1083,1255,1010,3,3,3,0.8124531132783196,True,215
+105,Number Theory,2,True,True,False,False,3793,1182,3727,1116,40,40,40_9,0.3116266807276562,True,189
+106,Algebra,2,True,True,True,True,2068,2394,1976,2314,143,143,143,1.1576402321083172,True,237
+107,Algebra,2,True,True,True,True,1314,1069,1207,984,10,10,10,0.8135464231354642,True,251
+108,Prealgebra,2,True,True,True,True,1125,1051,1000,917,78,78,78,0.9342222222222222,True,330
+109,Precalculus,2,True,True,True,True,1490,1245,1411,1175,-2 + 7i,-2 + 7i,-2 + 7i,0.8355704697986577,True,210
+110,Counting & Probability,2,True,True,True,True,1236,839,1173,785,6,6,6,0.6788025889967637,True,181
+111,Counting & Probability,2,True,True,True,True,1196,1095,1074,986,225,225,225,0.9155518394648829,True,311
+112,Prealgebra,2,True,True,True,True,1247,946,1154,859,5,5,5,0.7586206896551724,True,246
+113,Intermediate Algebra,2,True,True,True,True,1647,1211,1549,1113,16,16,16,0.7352762598664238,True,257
+114,Prealgebra,2,True,True,True,True,1049,917,992,861,0.15,0.15,0.15,0.8741658722592945,True,172
+115,Precalculus,2,True,True,True,True,1149,1216,1078,1147,-\frac{\pi}{6},-\frac{\pi}{6},-\frac{\pi}{6},1.0583115752828547,True,202
+116,Number Theory,2,True,True,True,True,1387,1474,1302,1388,3,3,3,1.0627253064167268,True,233
+117,Intermediate Algebra,2,True,True,True,True,2913,2581,2847,2515,x^5 - x^4 + x^3 - x^2 + x - 1,x^5 - x^4 + x^3 - x^2 + x - 1,x^5 - x^4 + x^3 - x^2 + x - 1,0.8860281496738758,True,192
+118,Intermediate Algebra,2,True,True,True,True,2514,3049,2440,2977,"3, 5, 7","3,\ 5,\ 7","3, 5, 7",1.2128082736674621,True,206
+119,Number Theory,2,True,True,True,True,5600,2341,5452,2188,59,59,59,0.4180357142857143,True,357
+120,Algebra,2,True,True,True,True,1122,945,1051,877,2,2,2,0.8422459893048129,True,200
+121,Algebra,2,True,True,True,True,1003,811,940,752,\frac{3}{2},\dfrac{3}{2},\frac{3}{2},0.8085742771684945,True,187
+122,Prealgebra,2,True,True,True,True,912,1232,757,1080,12,12,12,1.3508771929824561,True,345
+123,Precalculus,2,True,True,True,True,7368,5515,7280,5432,6,6,6,0.7485070575461455,True,231
+124,Precalculus,2,True,True,True,True,4489,2651,4384,2546,1,1,1,0.5905546892403654,True,271
+125,Counting & Probability,2,False,True,False,True,8436,3877,8191,3635,", even though the labels don't match",13,13,0.4595779990516833,False,552
+126,Algebra,2,True,True,True,True,1107,1027,1023,948,4,4,4,0.9277326106594399,True,225
+127,Intermediate Algebra,2,True,True,True,True,5578,2412,5511,2348,2,2,2,0.4324130512728577,True,189
+128,Algebra,2,True,True,True,True,2526,1881,2143,1509,\text{Evelyn},\text{Evelyn},\text{Evelyn},0.7446555819477435,True,792
+129,Geometry,2,True,True,True,True,1061,965,842,753,5,5,5,0.9095193213949104,True,489
+130,Precalculus,2,True,True,True,True,1626,1414,1502,1293,-4,-4,-4,0.8696186961869619,True,307
+131,Number Theory,2,True,True,True,True,1724,1508,1664,1447,0.35625,0.35625,.35625,0.8747099767981439,True,175
+132,Prealgebra,2,True,True,True,True,1453,1157,1368,1078,42,42,42,0.7962835512732278,True,229
+133,Number Theory,2,True,True,True,True,4638,1267,4564,1196,4,4,4,0.2731780940060371,True,201
+134,Number Theory,3,True,True,False,False,4898,1331,4830,1263,52,52,52_8,0.2717435688035933,True,200
+135,Prealgebra,3,True,True,True,True,1082,962,983,867,84,84,84,0.88909426987061,True,248
+136,Algebra,3,True,True,True,True,1416,833,1338,757,1,1,1,0.588276836158192,True,214
+137,Algebra,3,True,True,True,True,1211,1131,1102,1014,56,56,56,0.9339388934764657,True,279
+138,Counting & Probability,3,True,True,True,True,1365,1107,1280,1033,6,6,6,0.810989010989011,True,229
+139,Algebra,3,True,True,True,True,1287,958,1226,900,25,25,25,0.7443667443667443,True,177
+140,Precalculus,3,True,True,True,True,7880,3635,7759,3517,\dfrac{1}{16},\dfrac{1}{16},\frac{1}{16},0.4612944162436548,True,291
+141,Number Theory,3,True,True,True,True,6726,4114,6658,4052,14,14,14,0.6116562592922985,True,191
+142,Number Theory,3,True,True,True,True,1378,1125,1320,1073,9,9,9,0.816400580551524,True,168
+143,Algebra,3,True,True,True,True,1667,1549,1564,1446,6r^2 - 4r - 24,6r^2 - 4r - 24,6r^2-4r-24,0.9292141571685663,True,267
+144,Intermediate Algebra,3,True,True,True,True,3133,2310,3054,2233,9,9,9,0.7373124800510693,True,221
+145,Geometry,3,True,True,True,True,2008,3333,1924,3252,216,216,216,1.6598605577689243,True,238
+146,Algebra,3,True,True,True,True,1415,1219,1324,1129,\frac{14}{3},\dfrac{14}{3},\frac{14}{3},0.8614840989399293,True,244
+147,Number Theory,3,True,True,True,True,1698,1181,1633,1121,255,255,255,0.6955241460541813,True,184
+148,Geometry,3,True,True,True,True,1280,1018,1202,951,72,72,72,0.7953125,True,210
+149,Intermediate Algebra,3,True,True,True,True,1629,1817,1552,1742,\dfrac{5}{13},\dfrac{5}{13},\frac{5}{13},1.1154082259054634,True,216
+150,Prealgebra,3,True,True,True,True,1181,1254,1098,1173,1,1,1,1.0618120237087214,True,222
+151,Precalculus,3,True,True,True,True,5658,1978,5465,1790,"(-2, -14, -7)",\begin{pmatrix} -2 \\ -14 \\ -7 \end{pmatrix},\begin{pmatrix} -2 \\ -14 \\ -7 \end{pmatrix},0.34959349593495936,True,435
+152,Intermediate Algebra,3,True,True,True,True,4660,2155,4558,2052,12,12,12,0.4624463519313305,True,257
+153,Number Theory,3,True,True,True,True,1833,1442,1762,1380,23,23,23,0.7866884888161484,True,186
+154,Precalculus,3,False,True,True,True,8335,6221,8191,6082,11,11,11,0.746370725854829,True,344
+155,Counting & Probability,3,True,True,True,True,1952,1386,1879,1319,10080,10080,"10,\!080",0.7100409836065574,True,205
+156,Precalculus,3,True,True,True,True,2711,2097,2440,1832,\dfrac{7}{4},\dfrac{7}{4},\frac{7}{4},0.7735153080044264,True,598
+157,Intermediate Algebra,3,False,True,True,True,8289,5265,8191,5171,should be 4,4,4,0.6351791530944625,True,257
+158,Geometry,3,True,True,True,True,2416,2162,2333,2080,30,30,30,0.8948675496688742,True,220
+159,Number Theory,3,True,True,True,True,1601,1155,1534,1086,1,1,1,0.7214241099312929,True,199
+160,Number Theory,3,True,True,True,True,2365,1397,2302,1337,27,27,27,0.5906976744186047,True,185
+161,Number Theory,3,True,True,True,True,2797,1853,2724,1787,900,900,900,0.6624955309259921,True,201
+162,Number Theory,3,False,True,False,True,8268,4065,8191,3993,. but for a number like 0,14,14,0.49165457184325106,False,211
+163,Prealgebra,3,True,True,True,True,553,647,490,587,\frac{1}{8},\dfrac{1}{8},\frac{1}{8},1.1699819168173597,True,188
+164,Prealgebra,3,True,True,True,True,1989,2003,1917,1934,\frac{8}{21},\dfrac{8}{21},\frac{8}{21},1.0070387129210658,True,201
+165,Intermediate Algebra,3,False,True,False,True,8283,4514,8191,4425,. i need to think about it,3,3,0.5449716286369672,False,244
+166,Algebra,3,True,True,True,True,827,1062,754,991,-128,-128,-128,1.2841596130592503,True,204
+167,Algebra,3,True,True,True,True,1064,1024,981,941,-1,-1,-1,0.9624060150375939,True,228
+168,Intermediate Algebra,3,True,True,True,True,3574,1582,3489,1496,\dfrac{10}{11},\dfrac{10}{11},\frac{10}{11},0.442641298265249,True,233
+169,Algebra,3,True,True,True,True,803,784,746,730,6 + 9i,6 + 9i,6+9i,0.9763387297633873,True,173
+170,Intermediate Algebra,3,False,True,True,True,8264,4659,8191,4591,", i feel confident that the greatest integer less than (√7 + √5)^6 is 13,535",13535,13535,0.5637705711519845,True,204
+171,Intermediate Algebra,3,True,True,True,True,6112,2491,6033,2414,10,10,10,0.4075589005235602,True,218
+172,Precalculus,3,True,True,True,True,4671,2404,4576,2315,\frac{8}{15},\dfrac{8}{15},\frac{8}{15},0.5146649539713124,True,247
+173,Algebra,3,True,True,True,True,1698,1506,1622,1432,-120,-120,-120,0.8869257950530035,True,212
+174,Intermediate Algebra,3,True,True,True,True,6626,2545,6517,2429,15,15,15,0.38409296709930574,True,278
+175,Number Theory,3,True,True,True,False,1951,1340,1868,1264,2,3,2,0.6868272680676576,False,222
+176,Prealgebra,3,True,True,True,True,1525,1125,1449,1054,\frac{33}{100},\dfrac{33}{100},\dfrac{33}{100},0.7377049180327869,True,204
+177,Algebra,3,True,True,True,True,1358,1168,1242,1064,16,16,16,0.8600883652430045,True,292
+178,Prealgebra,3,True,True,True,True,1867,2121,1786,2044,6,6,6,1.1360471344402785,True,212
+179,Number Theory,3,True,True,False,True,2624,1634,2564,1577,4343,4343,4343_6,0.6227134146341463,False,173
+180,Number Theory,3,False,True,False,True,8260,2597,8191,2536,". i don't see any gaps in the reasoning now – we considered all necessary conditions, verified through multiple methods (divisibility rules, direct enumeration of candidates in order), checked for smaller numbers that might have been missed, and confirmed with actual division",2220,2220,0.31440677966101693,False,190
+181,Intermediate Algebra,3,True,True,True,True,5515,1919,5404,1807,2k,2k,2k,0.34796010879419764,True,289
+182,Precalculus,3,False,False,False,False,8334,8331,8191,8191,. i need to think about it,|OA|=sin84° / sin55°,55^\circ,0.9996400287976962,True,324
+183,Precalculus,3,True,True,True,True,5319,1545,5232,1459,120,120,120^\circ,0.290468133107727,True,236
+184,Geometry,3,True,True,True,True,2145,1286,2060,1204,76,76,76^\circ,0.5995337995337995,True,229
+185,Precalculus,3,True,True,False,True,1295,1506,1190,1388,C,C,\text{(C)},1.162934362934363,False,287
+186,Counting & Probability,3,True,True,True,True,2241,2080,2170,2017,3,3,3,0.928157072735386,True,200
+187,Algebra,3,True,True,True,True,2060,1439,1980,1361,11,11,11,0.6985436893203884,True,219
+188,Precalculus,3,True,True,True,True,1624,1089,1495,966,y = -2x,y = -2x,y = -2x,0.6705665024630542,True,314
+189,Prealgebra,3,True,True,True,True,1428,1399,1357,1327,2,2,2,0.9796918767507002,True,202
+190,Algebra,3,True,True,True,True,1323,1048,1245,976,3\sqrt{13},3\sqrt{13},3\sqrt{13},0.7921390778533636,True,214
+191,Intermediate Algebra,3,True,True,True,True,4925,2800,4818,2701,34,34,34,0.5685279187817259,True,259
+192,Precalculus,3,True,True,True,True,6180,2892,6039,2750,\begin{pmatrix} -\dfrac{1}{3} \\ \dfrac{2}{3} \\ \dfrac{5}{3} \end{pmatrix},\begin{pmatrix} -\dfrac{1}{3} \\ \dfrac{2}{3} \\ \dfrac{5}{3} \end{pmatrix},\begin{pmatrix} -1/3 \\ 2/3 \\ 5/3 \end{pmatrix},0.4679611650485437,True,333
+193,Intermediate Algebra,3,True,True,True,True,2584,2171,2467,2061,16,16,16,0.8401702786377709,True,291
+194,Algebra,3,True,True,True,True,1833,1252,1767,1187,11,11,11,0.6830332787779596,True,193
+195,Algebra,3,True,True,True,True,1748,1190,1661,1110,1,1,1,0.6807780320366132,True,229
+196,Intermediate Algebra,3,True,True,True,True,4965,3357,4852,3246,-256,-256,-256,0.6761329305135951,True,286
+197,Algebra,3,True,True,True,True,1863,1208,1797,1145,14,14,14,0.6484165324745035,True,191
+198,Intermediate Algebra,3,False,True,False,True,8321,5029,8191,4914,. i need to think about it,2,2,0.6043744742218483,False,314
+199,Algebra,3,True,True,True,True,1827,1597,1745,1518,x^3 + 3x - 6,x^3 + 3x - 6,x^3+3x-6,0.8741105637657361,True,224
+200,Precalculus,3,True,True,True,True,6409,7280,6171,7153,30,30,30^\circ,1.1359026369168357,True,435
+201,Prealgebra,3,True,True,True,True,1311,887,1186,785,60,60,60,0.6765827612509535,True,309
+202,Geometry,3,True,True,True,True,2525,1644,2357,1479,\frac{\sqrt{21}}{5},\dfrac{\sqrt{21}}{5},\frac{\sqrt{21}}{5},0.6510891089108911,True,390
+203,Algebra,3,True,True,True,True,1448,1121,1322,1003,\frac{3}{4},\dfrac{3}{4},\frac 34,0.774171270718232,True,310
+204,Algebra,3,True,True,True,True,3410,1559,3269,1419,3,3,3,0.45718475073313786,True,349
+205,Number Theory,3,True,True,True,True,2604,1637,2491,1528,\frac{639}{40},\frac{639}{40},\frac{639}{40},0.6286482334869432,True,285
+206,Prealgebra,3,False,True,False,True,8456,6686,8191,6424,. i need to think about it,2,2,0.7906811731315042,False,596
+207,Algebra,3,True,True,True,True,1270,950,1207,889,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},0.7480314960629921,True,183
+208,Algebra,3,True,True,True,True,2125,1707,2043,1629,4,4,4,0.8032941176470588,True,219
+209,Precalculus,3,True,True,True,True,2671,2113,2547,1989,3\sqrt{5},3\sqrt{5},3 \sqrt{5},0.791089479595657,True,307
+210,Precalculus,3,True,True,True,False,1473,1541,1371,1442,\begin{pmatrix} \dfrac{16}{49} \\[0.5em] \dfrac{48}{49} \\[0.5em] \dfrac{24}{49} \end{pmatrix},\dfrac{8}{7},\begin{pmatrix} 16/49 \\ 48/49 \\ 24/49 \end{pmatrix},1.0461642905634758,False,258
+211,Counting & Probability,3,True,True,True,True,1370,1114,1274,1025,210,210,210,0.8131386861313868,True,254
+212,Intermediate Algebra,3,False,True,False,True,8286,3850,8191,3758,. i need to think about it,1,1,0.464639150374125,False,249
+213,Precalculus,3,True,True,True,True,1691,2590,1606,2513,1 - 12i,1 - 12i,1 - 12i,1.5316380839739798,True,223
+214,Prealgebra,3,True,True,True,True,1095,958,1008,875,\frac{3}{2},\frac{3}{2},\frac{3}{2},0.8748858447488584,True,228
+215,Geometry,3,True,True,True,True,1477,1341,1291,1155,6\sqrt{2},6\sqrt{2},6\sqrt{2},0.9079214624238321,True,420
+216,Intermediate Algebra,3,True,True,True,True,3816,1704,3696,1584,-5,-5,-5,0.44654088050314467,True,298
+217,Prealgebra,3,True,True,True,True,5066,2320,5005,2263,3,3,3,0.4579549940781682,True,183
+218,Precalculus,3,True,True,True,True,7118,3321,7052,3258,\dfrac{1}{8},\dfrac{1}{8},\frac{1}{8},0.4665636414723237,True,186
+219,Number Theory,3,True,True,False,False,2022,1497,1963,1433,4210,4210,4210_{5},0.7403560830860534,True,177
+220,Geometry,3,True,True,True,True,1400,990,1319,907,2,2,2,0.7071428571428572,True,225
+221,Algebra,3,True,True,True,False,7179,7411,7113,7349,36,32,36,1.032316478618192,False,195
+222,Intermediate Algebra,3,True,True,True,True,2494,1898,2412,1821,50,50,50,0.7610264635124299,True,220
+223,Algebra,3,True,True,True,True,1067,1428,974,1341,3,3,3,1.338331771321462,True,246
+224,Intermediate Algebra,3,True,True,True,True,4593,2148,4510,2066,9,9,9,0.4676681907250163,True,227
+225,Algebra,3,True,True,True,True,1201,943,1086,835,9,9,9,0.7851790174854288,True,284
+226,Prealgebra,3,True,True,True,True,3172,2390,3019,2255,41,41,41,0.7534678436317781,True,356
+227,Prealgebra,3,True,True,True,True,2086,1626,1995,1535,4,4,4,0.7794822627037392,True,237
+228,Algebra,3,True,True,True,True,2787,2134,2710,2059,\frac{\sqrt{3}}{3},\dfrac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},0.7656978830283458,True,211
+229,Geometry,3,False,True,True,True,8486,5032,8191,4734,30 degrees,30,30^\circ,0.5929766674522743,True,637
+230,Number Theory,3,True,True,True,True,4275,1653,4209,1585,0.0000672,0.0000672,.0000672,0.38666666666666666,True,194
+231,Algebra,3,True,True,True,True,1570,1328,1494,1259,2,2,2,0.845859872611465,True,209
+232,Prealgebra,3,True,True,True,True,1443,1099,1359,1026,120,120,120,0.7616077616077616,True,222
+233,Prealgebra,3,True,True,True,False,2116,6052,1757,5699,29,24,29,2.8601134215500945,False,669
+234,Algebra,3,True,True,True,True,1383,1166,1313,1101,11,11,11,0.8430947216196674,True,192
+235,Prealgebra,3,False,False,False,False,8388,8377,8191,8191,. i need to think about it,还是2+11=13,-9,0.998688602765856,True,450
+236,Number Theory,3,False,True,True,True,8298,4428,8191,4325,should be 6,6,6,0.5336225596529284,True,274
+237,Prealgebra,3,True,True,True,True,2249,1804,2185,1744,3,3,3,0.802134281903068,True,180
+238,Intermediate Algebra,3,True,True,True,True,8127,2221,8061,2155,x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1,x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1,x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1,0.273286575612157,True,192
+239,Prealgebra,4,True,True,True,True,1266,1103,1168,1005,550,550,550,0.8712480252764613,True,260
+240,Algebra,4,True,True,True,True,1339,1497,1256,1420,10,10,10,1.117998506348021,True,219
+241,Number Theory,4,False,True,True,True,8310,2784,8191,2671,3,3,3,0.33501805054151623,True,252
+242,Intermediate Algebra,4,True,True,True,True,5829,2190,5713,2075,"(1, -16, -4, 43)","(1, -16, -4, 43)","(1,-16,-4,43)",0.3757076685537828,True,294
+243,Precalculus,4,True,True,True,True,8171,4000,8041,3877,\begin{pmatrix} -7 \\ 16 \\ 5 \end{pmatrix},"(-7, 16, 5)",\begin{pmatrix} -7 \\ 16 \\ 5 \end{pmatrix},0.48953616448415127,True,305
+244,Algebra,4,True,True,True,True,1921,1535,1842,1457,\frac{9}{19},\frac{9}{19},\frac9{19},0.7990629880270692,True,218
+245,Prealgebra,4,False,True,True,True,8325,5194,8191,5064,should be 5,5,5,0.6239039039039039,True,308
+246,Counting & Probability,4,True,True,True,True,2041,2677,1972,2616,12,12,12,1.3116119549240568,True,198
+247,Geometry,4,True,True,True,True,3291,1903,3206,1814,63,63,63,0.5782436949255545,True,245
+248,Precalculus,4,True,True,True,True,6166,2807,5948,2590,\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},0.45523840415180017,True,469
+249,Number Theory,4,True,True,True,True,2292,2054,2154,1931,103,103,103,0.8961605584642234,True,323
+250,Counting & Probability,4,True,True,True,True,6950,2095,6863,2012,4,4,4,0.3014388489208633,True,228
+251,Intermediate Algebra,4,True,True,True,True,6792,4396,6675,4279,64,64,64,0.6472320376914017,True,294
+252,Number Theory,4,False,True,False,True,8293,2963,8191,2868,. i need to think about it,58,58,0.3572892801157603,False,258
+253,Intermediate Algebra,4,False,True,False,True,8360,6536,8191,6371,for our terms,898,898,0.7818181818181819,False,362
+254,Counting & Probability,4,True,True,True,True,2535,2447,2441,2355,63,63,63,0.9652859960552268,True,247
+255,Intermediate Algebra,4,True,True,True,True,5788,2417,5692,2322,"(2, 12) \cup (12, 102)","(2, 12) \cup (12, 102)","(2,12) \cup (12,102)",0.41758811333794055,True,250
+256,Algebra,4,True,True,True,True,1788,1414,1719,1346,256,256,256,0.79082774049217,True,196
+257,Prealgebra,4,True,True,True,True,1127,987,1059,925,4,4,4,0.8757763975155279,True,197
+258,Algebra,4,True,True,True,True,5115,2331,5031,2240,41,41,41,0.45571847507331376,True,228
+259,Precalculus,4,False,True,False,True,8275,5328,8191,5245,s,"\left[ \frac{\pi^2}{8}, \frac{5\pi^2}{4} \right]","\left[ \frac{\pi^2}{8}, \frac{5 \pi^2}{4} \right]",0.6438670694864048,False,230
+260,Algebra,4,True,True,True,True,1410,1681,1333,1611,8,8,8,1.1921985815602838,True,211
+261,Intermediate Algebra,4,True,True,True,True,7623,3749,7483,3610,6,6,6,0.4918011281647645,True,339
+262,Number Theory,4,True,True,True,True,5796,1620,5716,1542,4,4,4,0.2795031055900621,True,208
+263,Algebra,4,True,True,True,True,1454,948,1347,851,1,1,1,0.6519944979367263,True,268
+264,Algebra,4,True,True,True,True,2172,1216,2108,1152,81,81,81,0.5598526703499079,True,188
+265,Counting & Probability,4,True,True,True,True,2076,1623,1983,1538,480,480,480,0.7817919075144508,True,246
+266,Precalculus,4,False,True,False,True,8434,5797,8191,5554,"above, y=2 tan(3θ/2)), so now we have two expressions for y:",11(\sqrt{5} + 1),11 \sqrt{5} + 11,0.6873369694095328,False,542
+267,Algebra,4,True,True,True,True,4640,1456,4497,1306,12,12,12,0.3137931034482759,True,353
+268,Prealgebra,4,False,False,False,True,8397,8394,8191,8191,we thought of earlier,应该是75度,75^\circ,0.9996427295462665,False,466
+269,Geometry,4,True,True,True,True,2871,2207,2754,2101,"(8, -2)","(8, -2)","(8,-2)",0.7687216997561825,True,283
+270,Counting & Probability,4,False,True,False,True,8272,6613,8191,6532,.,10080,10080,0.7994439071566731,False,227
+271,Algebra,4,True,True,True,True,2235,1532,2158,1462,66,66,66,0.6854586129753915,True,208
+272,Prealgebra,4,True,True,True,True,3057,4932,2776,4658,12^{\text{th}},12^{\text{th}},12,1.6133464180569186,True,588
+273,Intermediate Algebra,4,False,True,False,True,8309,7195,8191,7075,. i need to think about it,406,406,0.8659285112528583,False,295
+274,Intermediate Algebra,4,True,True,True,True,5622,2322,5549,2251,"(0, 9) \cup (9, 36)","(0, 9) \cup (9, 36)","(0,9) \cup (9,36)",0.41302027748132336,True,202
+275,Algebra,4,True,True,True,True,1714,1615,1656,1559,-2,-2,-2,0.9422403733955659,True,177
+276,Prealgebra,4,True,True,True,True,3384,3703,3222,3543,\text{Navin},Navin,\text{Navin},1.0942671394799055,True,362
+277,Algebra,4,True,True,True,True,3064,2446,2957,2343,8,8,8,0.7983028720626631,True,262
+278,Number Theory,4,True,True,True,True,6654,2766,6546,2659,3,3,3,0.41568981064021643,True,274
+279,Number Theory,4,False,True,False,True,8288,3533,8191,3446,"1), whereas 699 is a more standard problem with answer 2, i think it's likely a typo and the number should be 699",3,3,0.4262789575289575,False,236
+280,Intermediate Algebra,4,True,True,True,True,7813,1891,7703,1783,3,3,3,0.24203250991936517,True,279
+281,Intermediate Algebra,4,True,True,True,True,7233,3775,7142,3686,2,2,2,0.5219134522328218,True,241
+282,Number Theory,4,True,True,True,True,4884,1934,4817,1869,121,121,121,0.39598689598689596,True,195
+283,Intermediate Algebra,4,False,True,True,True,8469,5653,8191,5385,15,15,15,0.6674932105325304,True,615
+284,Prealgebra,4,True,True,True,True,1618,1212,1543,1142,60,60,60,0.7490729295426453,True,211
+285,Algebra,4,True,True,True,True,1342,839,1272,771,45,45,45,0.6251862891207154,True,200
+286,Geometry,4,False,True,False,False,8509,2851,8191,2754,. let's denote:,160,120,0.3350569984722059,True,471
+287,Algebra,4,True,True,True,True,1245,1473,1163,1396,9,9,9,1.183132530120482,True,221
+288,Intermediate Algebra,4,True,True,True,True,7785,2242,7679,2152,2\sqrt{5},2\sqrt{5},2 \sqrt{5},0.28798972382787413,True,259
+289,Algebra,4,True,True,True,True,3129,1107,3049,1030,"[-2, 7]","[-2, 7]","x \in [-2,7]",0.3537871524448706,True,218
+290,Intermediate Algebra,4,True,True,True,True,5048,3247,4952,3159,16\sqrt{3},16\sqrt{3},16 \sqrt{3},0.6432250396196514,True,251
+291,Number Theory,4,True,True,True,True,4932,1729,4847,1650,17,17,17,0.35056772100567724,True,224
+292,Geometry,4,True,True,True,True,3874,2216,3772,2114,106,106,106^\circ,0.5720185854414043,True,259
+293,Intermediate Algebra,4,True,True,True,True,2022,2303,1922,2207,-1,-1,-1,1.138971315529179,True,257
+294,Precalculus,4,False,True,False,True,8302,2702,8191,2593,. let's check if this makes sense with the earlier identity approach,46,46,0.3254637436762226,False,270
+295,Prealgebra,4,True,True,True,True,1803,1363,1709,1277,10,10,10,0.7559622850804215,True,248
+296,Precalculus,4,True,True,True,True,6020,3293,5874,3151,5x - 7y + 11z + 4 = 0,5x - 7y + 11z + 4 = 0,5x - 7y + 11z + 4 = 0,0.5470099667774087,True,352
+297,Algebra,4,True,True,True,True,6632,2299,6495,2162,23,23,23,0.34665259348612787,True,333
+298,Number Theory,4,True,True,True,True,5187,1426,5109,1350,7,7,7,0.2749180643917486,True,212
+299,Precalculus,4,False,True,False,True,8301,5700,8191,5594,gives me confidence,\dfrac{35}{64},\frac{35}{64},0.6866642573183954,False,279
+300,Intermediate Algebra,4,True,True,True,True,4177,1861,4084,1777,24,24,24,0.4455350730189131,True,240
+301,Algebra,4,True,True,True,True,1519,954,1423,865,3,3,3,0.6280447662936142,True,247
+302,Number Theory,4,False,True,True,True,8262,3993,8191,3922,2516₈,2516,2516_8,0.4832970225127088,True,188
+303,Prealgebra,4,True,True,True,True,1507,4772,1430,4695,40,40,40,3.1665560716655605,True,214
+304,Number Theory,4,True,True,True,True,5335,2292,5217,2177,66,66,66,0.4296157450796626,True,296
+305,Prealgebra,4,True,False,True,False,6886,8433,6640,8191,10,6不符，说明我的网格分析有误,10,1.224658727853616,False,538
+306,Intermediate Algebra,4,False,True,True,True,8304,5239,8191,5122,2,2,2,0.6309007707129094,True,289
+307,Algebra,4,True,True,True,True,2583,1292,2507,1219,2,2,2,0.500193573364305,True,211
+308,Prealgebra,4,True,True,True,True,1527,1186,1430,1102,6,6,6,0.776686313032089,True,244
+309,Number Theory,4,False,True,False,False,8254,4213,8191,4153,),11111111100,"11,\! 111,\! 111,\! 100",0.5104191906954204,True,183
+310,Counting & Probability,4,False,True,False,False,8935,7943,8191,7785,. i need to think about it,\dfrac{1}{4},\frac{1}{2},0.8889759373251259,True,978
+311,Geometry,4,False,True,True,True,8372,5553,8191,5381,54,54,54,0.6632823698041089,True,412
+312,Precalculus,4,False,True,False,True,8298,3715,8191,3611,. i need to think about it,\frac{9}{256},\frac{9}{256},0.4476982405398891,False,248
+313,Intermediate Algebra,4,False,False,False,False,8353,8358,8191,8191,"in integers), maybe we can work backwards from a₁₃? sometimes working backwards with sequences defined by recursions is easier, especially if we can express earlier terms in terms of later ones",所有项必须是整数，因此r必须是有理数，否则a₂=a₁r可能不是整数）,504,1.000598587333892,True,390
+314,Algebra,4,True,True,True,True,1299,1021,1184,904,\frac{3\sqrt{3}}{4},\dfrac{3\sqrt{3}}{4},\frac{3\sqrt{3}}{4},0.7859892224788299,True,293
+315,Prealgebra,4,True,True,True,True,1198,1248,1079,1143,\frac{4}{9},\dfrac{4}{9},\frac{4}{9},1.0417362270450752,True,293
+316,Counting & Probability,4,True,True,True,True,1914,1756,1832,1684,\frac{11}{36},\frac{11}{36},\frac{11}{36},0.9174503657262278,True,219
+317,Geometry,4,True,False,True,True,6245,8481,5952,8191,8,应该是8,8,1.3580464371497198,True,631
+318,Algebra,4,True,True,True,True,5680,2087,5604,2013,\frac{11}{2},\frac{11}{2},\frac{11}{2},0.3674295774647887,True,215
+319,Algebra,4,True,True,True,True,1210,1440,1136,1369,-3,-3,-3,1.1900826446280992,True,207
+320,Intermediate Algebra,4,False,True,False,True,8310,4180,8192,4052,. i need to think about it,1 + 274i,1+274i,0.5030084235860409,False,298
+321,Number Theory,4,True,True,True,True,7085,3048,7001,2963,13,13,13,0.43020465772759353,True,218
+322,Algebra,4,True,True,True,True,2843,2113,2763,2034,8,8,8,0.7432289834681675,True,219
+323,Intermediate Algebra,4,True,True,True,True,4448,1810,4287,1658,16,16,16,0.4069244604316547,True,372
+324,Intermediate Algebra,4,False,True,False,True,8315,6366,8191,6247,. i need to think about it,40,40,0.7656043295249549,False,300
+325,Number Theory,4,True,True,False,True,7437,2491,7372,2427,204,204_5,204_5,0.33494688718569315,False,186
+326,Counting & Probability,4,False,True,False,True,8316,6511,8191,6394,in the bags being equal,\dfrac{1}{3},\frac{1}{3},0.782948532948533,False,327
+327,Number Theory,4,True,True,True,True,3428,2092,3352,2021,13,13,13,0.6102683780630105,True,209
+328,Algebra,4,True,True,True,True,1794,1457,1707,1369,33,33,33,0.8121516164994426,True,235
+329,Counting & Probability,4,True,True,True,True,2661,1920,2577,1839,\frac{448}{15625},\frac{448}{15625},\frac{448}{15625},0.7215332581736189,True,235
+330,Number Theory,4,True,True,True,True,6856,1888,6786,1821,21,21,21,0.27537922987164526,True,188
+331,Geometry,4,True,True,True,True,1520,1141,1415,1031,\sqrt{5},\sqrt{5},\sqrt{5},0.7506578947368421,True,277
+332,Counting & Probability,4,True,True,True,True,3131,3712,3000,3593,\frac{2}{21},\dfrac{2}{21},\frac{2}{21},1.1855637176620888,True,314
+333,Algebra,4,True,True,True,True,5159,2059,5059,1960,-1,-1,-1,0.3991083543322349,True,255
+334,Counting & Probability,4,True,True,True,True,2928,1653,2830,1556,\frac{1}{4},\dfrac{1}{4},\frac{1}{4},0.5645491803278688,True,261
+335,Algebra,4,True,True,True,True,2429,1894,2362,1836,2107,2107,2107,0.7797447509263071,True,179
+336,Algebra,4,True,True,True,True,1533,1206,1438,1109,3.21,3.21,3.21,0.786692759295499,True,251
+337,Intermediate Algebra,4,True,True,True,True,5193,3524,5080,3415,"(-2, 1)","(-2, 1)","(-2,1)",0.6786058155208935,True,284
+338,Precalculus,4,True,True,True,True,6797,5227,6637,5068,288\pi,288\pi,288 \pi,0.7690157422392232,True,378
+339,Prealgebra,4,True,True,True,True,1322,1041,1198,919,90,90,90,0.7874432677760969,True,298
+340,Prealgebra,4,True,True,True,True,990,1058,920,995,83,83,83,1.0686868686868687,True,193
+341,Algebra,4,True,True,True,True,5817,1794,5709,1702,10,10,10,0.3084063950489943,True,272
+342,Intermediate Algebra,4,True,True,True,True,7940,4593,7739,4413,440,440,440,0.578463476070529,True,447
+343,Precalculus,4,True,True,True,True,2262,2395,2152,2288,90,90,90^\circ,1.0587975243147656,True,283
+344,Algebra,4,True,True,True,True,3564,4629,3392,4473,129,129,129,1.2988215488215489,True,387
+345,Prealgebra,4,False,True,False,True,8577,6266,8191,6187,", but let's make sure we didn't misidentify the angle",36,36^\circ,0.7305584703276203,False,486
+346,Number Theory,4,True,True,True,True,1840,2573,1752,2491,8,8,8,1.3983695652173913,True,232
+347,Prealgebra,4,True,True,True,True,1434,1341,1377,1286,\sqrt{53},\sqrt{53},\sqrt{53},0.9351464435146444,True,172
+348,Prealgebra,4,True,True,True,True,1792,1455,1673,1356,1250,1250,1250,0.8119419642857143,True,277
+349,Number Theory,4,True,True,True,True,7026,3208,6931,3112,1030,1030,1030,0.4565898092798178,True,247
+350,Number Theory,4,True,True,True,True,5534,2121,5458,2043,333,333,333,0.3832670762558728,True,201
+351,Geometry,4,True,True,True,True,1293,1224,1217,1154,15,15,15,0.9466357308584686,True,211
+352,Intermediate Algebra,4,True,True,True,True,7408,2964,7281,2842,\dfrac{16}{5},\frac{16}{5},\frac{16}{5},0.40010799136069114,True,310
+353,Precalculus,4,False,True,False,True,8446,5025,8191,4777,. i need to think about it,\pi,\pi,0.5949561922803694,False,558
+354,Algebra,4,True,True,True,True,1485,1357,1372,1257,13,13,13,0.9138047138047138,True,274
+355,Precalculus,4,False,True,True,True,8305,6895,8191,6783,\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix},\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix},\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix},0.8302227573750752,True,267
+356,Intermediate Algebra,4,True,True,True,True,8303,3109,8171,2976,-13x + 3,-13x + 3,-13x+3,0.3744429724196074,True,321
+357,Geometry,4,True,True,False,True,1189,1099,1121,1038,864,864,864 \mbox{ inches}^2,0.9243061396131202,False,195
+358,Algebra,4,True,True,True,True,5772,1658,5652,1536,13,13,13,0.2872487872487873,True,301
+359,Counting & Probability,4,False,False,False,False,8286,8280,8191,8191,.,不同，说明哪里错了,720,0.999275887038378,True,252
+360,Algebra,4,True,True,True,True,5527,2311,5435,2220,\dfrac{243}{625},\frac{243}{625},\frac{243}{625},0.41812918400578974,True,242
+361,Counting & Probability,4,True,True,True,True,1840,2067,1762,1991,-125,-125,-125,1.1233695652173914,True,214
+362,Precalculus,4,False,False,True,True,8287,8284,8191,8191,"should be 12, now need to prove it algebraically",约为12，所以尝试用另一种方法：,12,0.9996379872088814,True,245
+363,Prealgebra,4,True,True,True,True,1080,817,1026,766,11\sqrt{2},11\sqrt{2},11\sqrt2,0.7564814814814815,True,163
+364,Prealgebra,4,True,True,True,True,4212,1399,4134,1323,\dfrac{5}{9},\frac{5}{9},\frac 59,0.3321462488129155,True,215
+365,Prealgebra,4,False,True,False,False,8461,4769,8191,4703,. i need to think about it,60,116,0.5636449592246779,True,380
+366,Geometry,4,True,True,True,True,4586,7068,4492,6976,17,17,17,1.5412123855211513,True,250
+367,Algebra,5,True,True,True,True,1601,1342,1517,1255,600,600,600,0.8382261086820737,True,226
+368,Intermediate Algebra,5,False,False,False,True,8327,8324,8191,8191,. i need to think about it,n=3时最小的|sum|=7，对应|a₂|=14,14,0.9996397261919059,False,335
+369,Prealgebra,5,True,True,True,True,2957,2861,2779,2704,64,64,64,0.9675346635103145,True,428
+370,Algebra,5,True,True,True,True,1603,1451,1524,1377,"(-\infty, 2) \cup (3, \infty)","(-\infty, 2) \cup (3, +\infty)","(-\infty, 2) \cup (3, \infty)",0.9051777916406737,True,215
+371,Prealgebra,5,True,True,True,True,2612,1654,2532,1583,32,32,32,0.6332312404287902,True,217
+372,Prealgebra,5,False,False,False,False,8583,8270,8191,8191,. i need to think about it,应该是100度,80,0.9635325643714319,True,531
+373,Intermediate Algebra,5,True,True,True,True,7937,4167,7815,4045,331,331,331,0.5250094494141363,True,299
+374,Precalculus,5,False,True,False,True,8341,7297,8191,7152,"? wait, but let me check once more for calculation errors in the cubic, because sometimes when doing these problems, it's easy to miscalculate the expansion",27,27,0.8748351516604723,False,355
+375,Intermediate Algebra,5,False,True,False,True,8343,7529,8191,7375,. i need to think about it,"1+\sqrt{19}, 1-\sqrt{19}",1 \pm \sqrt{19},0.9024331775140837,False,364
+376,Geometry,5,False,True,False,True,8436,5710,8191,5470,. i need to think about it,145,145^\circ,0.6768610715979138,False,520
+377,Prealgebra,5,False,False,False,False,8384,8382,8191,8191,". wait, is that true?",相同）,4,0.9997614503816794,True,450
+378,Intermediate Algebra,5,False,True,False,True,8426,8216,8191,7979,. i need to think about it,850,850,0.9750771421789699,False,527
+379,Algebra,5,True,True,True,True,6009,2524,5898,2414,20,20,20,0.4200366117490431,True,279
+380,Intermediate Algebra,5,False,True,True,True,8286,3061,8191,2974,27648,27648,27648,0.3694182959208303,True,241
+381,Intermediate Algebra,5,False,False,False,False,8345,8342,8191,8191,.,方程为-8b³ + b⁶ - 2b⁴ - 4b² + 8 = 0 ⇒ b⁶ - 2b⁴ - 8b³ - 4b² + 8 = 0,"\{1\pm\sqrt{5},-2\}",0.9996405032953865,True,369
+382,Precalculus,5,True,True,True,True,6627,3245,6442,3062,120,120,120^\circ,0.48966349781198126,True,407
+383,Number Theory,5,False,True,True,False,8292,6959,8191,6859,". maybe my initial hesitation was because 1440 seems lower than i expected, but given that the modulus is 1001, which is almost half of 2010, it makes sense that there are only two solutions below 2010",439,1440,0.8392426435118187,False,252
+384,Intermediate Algebra,5,False,False,False,False,8321,8320,8192,8191,over x,"表达式可以写成f(x) + g(y) + h(x,y)，其中f(x)=√(x²+400), g(y)=√(y²+900), h(x,y)=√((x-40)^2+(y-50)^2)",70 \sqrt{2},0.9998798221367624,True,298
+385,Precalculus,5,False,False,False,False,8315,8307,8191,8191,as the vector approach,一致,3R^2,0.9990378833433554,True,306
+386,Geometry,5,False,False,True,True,8286,8284,8191,8191,". good, so shoelace gives 7/2",应该是7/2,\frac{7}{2},0.9997586290127927,True,254
+387,Intermediate Algebra,5,False,True,False,True,8346,3117,8191,2969,", i think",p - q,p - q,0.3734723220704529,False,365
+388,Intermediate Algebra,5,False,False,False,True,8342,8343,8191,8191,. i need to think about it,"应该是3<λ≤4，即λ∈(3,4]","(3,4]",1.0001198753296572,False,365
+389,Intermediate Algebra,5,False,False,False,False,8308,8300,8191,8191,. i need to think about it,0,\frac{1}{4},0.999037072701011,True,290
+390,Prealgebra,5,True,True,True,True,1897,1148,1823,1077,12,12,12,0.6051660516605166,True,207
+391,Number Theory,5,True,True,True,True,6657,2014,6513,1888,203,203,203,0.302538681087577,True,329
+392,Counting & Probability,5,False,False,True,True,8287,8273,8191,8191,144,就是144,144,0.9983106069747798,True,247
+393,Intermediate Algebra,5,True,True,True,True,6302,3747,6179,3620,"-2,1","-2,1","1,-2",0.5945731513805141,True,309
+394,Counting & Probability,5,True,True,True,True,7559,3362,7355,3178,29,29,29,0.44476782643206775,True,452
+395,Algebra,5,True,True,True,True,2900,1869,2777,1742,18.90,18.90,\$18.90,0.6444827586206896,True,326
+396,Intermediate Algebra,5,False,True,False,True,8285,7650,8191,7557,"? maybe by recognizing that the big polynomial is a cubic in y=x³, so let's denote p(y) = y³ + p y² + q y + r, and the given cubic factor is f(x)=x³-3x²+4x-1","(6, 31, -1)","(6,31,-1)",0.9233554616777309,False,253
+397,Precalculus,5,True,True,True,True,6842,3379,6692,3233,4,4,4,0.4938614440222157,True,355
+398,Intermediate Algebra,5,False,True,True,True,8324,3185,8191,3054,10,10,10,0.38262854396924556,True,328
+399,Intermediate Algebra,5,False,True,False,True,8310,7990,8191,7875,"ing polynomial equation will have all the complex solutions of the original equation as its roots, except maybe those excluded values, but since they aren't solutions (they make left side undefined), we don't have to worry about them being roots of the polynomial",\frac{2}{1005},\frac{2}{1005},0.9614921780986763,False,292
+400,Precalculus,5,True,True,True,True,5881,2843,5715,2670,y = 2x + 3,y = 2x + 3,y = 2x + 3,0.4834211868729808,True,397
+401,Number Theory,5,True,True,True,True,4607,1548,4517,1462,2,2,2,0.3360104189277187,True,239
+402,Algebra,5,True,True,True,True,5683,2425,5536,2304,10,10,10,0.4267112440612353,True,332
+403,Intermediate Algebra,5,False,True,True,True,8338,6227,8191,6083,8n^2 + 4n + 1,8n^2 + 4n + 1,8n^2 + 4n + 1,0.7468217798033101,True,355
+404,Algebra,5,True,True,True,True,1596,1873,1500,1777,5,5,5,1.1735588972431077,True,257
+405,Number Theory,5,False,True,False,True,8289,3039,8191,2944,. i need to think about it,202,202,0.3666304741223308,False,251
+406,Number Theory,5,True,True,True,True,6745,2027,6664,1952,64,64,64,0.3005189028910304,True,212
+407,Algebra,5,True,True,True,True,2159,1385,2086,1314,5,5,x=5,0.6415006947660954,True,203
+408,Number Theory,5,True,True,True,True,4901,1635,4803,1525,44,44,44,0.33360538665578454,True,262
+409,Algebra,5,True,True,True,True,5156,4000,4984,3815,5,5,5,0.7757951900698216,True,419
+410,Prealgebra,5,True,True,True,True,1534,1114,1426,1005,1.25,1.25,1.25,0.7262059973924381,True,284
+411,Precalculus,5,True,True,True,True,5810,2740,5587,2520,6 - 5i,6 - 5i,6 - 5i,0.47160068846815834,True,504
+412,Prealgebra,5,True,False,True,False,6412,8452,6136,8191,7,"d=S - (2n+1)，而(3,0)=d，但主对角线的(3,3)是g，不是d）",7,1.3181534622582658,False,598
+413,Counting & Probability,5,False,False,False,False,8415,8413,8191,8191,. i need to think about it,面积=AB*AD=2k*2=4k？不，矩形的长和宽是AB,\frac{1}{2},0.9997623291740939,True,443
+414,Intermediate Algebra,5,False,False,False,False,8281,8281,8191,8191,". let's verify with an example: f(x)=x² - 5x + 6, roots at 2 and 3",**有效解必须满足**：,501,1.0,True,235
+415,Number Theory,5,True,True,True,True,7430,1852,7315,1758,284,284,284,0.24925975773889636,True,270
+416,Precalculus,5,True,True,True,True,7546,4843,7418,4711,8\pi,8\pi,8 \pi,0.6417969785316724,True,319
+417,Algebra,5,False,True,False,True,8322,4416,8191,4279,.,\frac{3}{2},\frac{3}{2},0.5306416726748377,False,336
+418,Prealgebra,5,True,True,True,True,1120,1580,1037,1505,36,36,\$36,1.4107142857142858,True,222
+419,Algebra,5,False,True,False,True,8322,7883,8191,7757,. i need to think about it,2,2,0.9472482576303773,False,322
+420,Intermediate Algebra,5,False,False,False,False,8295,8289,8192,8191,(since both conditions must hold),矛盾，说明哪里出错了,\frac{3}{56},0.9992766726943942,True,266
+421,Number Theory,5,True,True,True,True,2828,2311,2720,2212,36,36,36,0.8171852899575672,True,277
+422,Algebra,5,True,True,True,True,2455,2256,2353,2157,-2,-2,-2,0.9189409368635438,True,263
+423,Prealgebra,5,True,True,True,True,2436,1837,2360,1761,8,8,8,0.7541050903119869,True,213
+424,Algebra,5,True,True,True,True,8278,2132,8159,2024,32348,32348,"\$32,\!348",0.25755013288233874,True,290
+425,Intermediate Algebra,5,False,True,False,True,8322,4780,8191,4656,.,15,15,0.5743811583753905,False,321
+426,Algebra,5,False,True,True,True,8308,3770,8191,3664,should be 3,3,3,0.45377948964853154,True,284
+427,Algebra,5,True,True,True,True,2193,2294,2106,2215,17,17,17,1.0460556315549476,True,231
+428,Counting & Probability,5,True,True,True,True,2636,2285,2555,2203,1940,1940,1940,0.8668437025796661,True,229
+429,Algebra,5,True,True,True,True,4653,1875,4556,1780,\dfrac{13}{6},\dfrac{13}{6},\frac{13}{6},0.4029658284977434,True,246
+430,Counting & Probability,5,False,False,False,True,8278,8279,8191,8191,in ab and cd intersecting?,应该是1/3,\frac{1}{3},1.0001208021261174,False,240
+431,Geometry,5,False,False,False,False,8342,8350,8191,8191,. i need to think about it,一样,16,1.0009590026372572,True,372
+432,Intermediate Algebra,5,False,True,False,True,8305,7431,8191,7316,"for roots of unity: the sum is n when k ≡ 0 mod n, else 0",\dfrac{1997}{2},\frac{1997}{2},0.8947621914509332,False,279
+433,Prealgebra,5,True,True,True,True,1428,1290,1303,1173,\frac{16}{27},\dfrac{16}{27},\frac{16}{27},0.9033613445378151,True,313
+434,Counting & Probability,5,True,True,False,False,3464,2786,3329,2662,115,115,110,0.8042725173210161,True,313
+435,Intermediate Algebra,5,False,False,False,False,8322,8324,8191,8191,. i need to think about it,约束：,0,1.0002403268445086,True,326
+436,Algebra,5,True,True,True,True,3334,1804,3212,1678,\frac{2}{3},\dfrac{2}{3},\frac{2}{3},0.5410917816436712,True,314
+437,Intermediate Algebra,5,False,True,False,True,8291,4267,8191,4169,.,100,100,0.5146544445784585,False,263
+438,Algebra,5,True,True,True,True,5186,1737,5108,1658,"(-\sqrt{3}, \sqrt{3})","(-\sqrt{3}, \sqrt{3})","(-\sqrt{3}, \sqrt{3})",0.3349402236791361,True,216
+439,Algebra,5,True,True,True,True,5158,1846,5068,1757,-4,-4,-4,0.3578906552927491,True,240
+440,Prealgebra,5,True,True,True,True,2654,1811,2545,1711,4,4,4,0.6823662396382818,True,270
+441,Prealgebra,5,True,True,True,True,1132,1285,1034,1200,10,10,10,1.1351590106007068,True,255
+442,Intermediate Algebra,5,False,True,False,True,8294,3017,8191,2915,. i need to think about it,-1,-1,0.36375693272244997,False,264
+443,Intermediate Algebra,5,False,False,False,False,8304,8303,8192,8191,. i need to think about it,之前的分析正确,\frac{17}{21},0.9998795761078998,True,284
+444,Algebra,5,True,True,True,True,2243,1715,2151,1624,"\left( \frac{3}{5}, \frac{8}{3} \right]","\left( \frac{3}{5}, \frac{8}{3} \right]","\left(\frac{3}{5},\frac{8}{3}\right]",0.7646009808292465,True,238
+445,Precalculus,5,False,False,False,True,8295,8298,8191,8191,". great, so that's a good check",也是\(\frac{1}{3}\),3 \pm 2 \sqrt{2},1.000361663652803,False,273
+446,Prealgebra,5,True,True,True,True,2852,2430,2633,2227,7\pi,7\pi,7\pi,0.8520336605890603,True,490
+447,Prealgebra,5,True,True,True,True,3430,3382,2595,2549,5.4,5.4,5.4 \text{ cents},0.9860058309037901,True,1666
+448,Algebra,5,True,True,True,True,4205,2085,4137,2018,11,11,11,0.4958382877526754,True,193
+449,Geometry,5,False,True,False,True,8312,3878,8191,3763,. so height h = ad / sqrt(a² + d²),28,28,0.4665543792107796,False,298
+450,Geometry,5,True,True,True,True,8002,2717,7835,2553,-\frac{24}{25},-\frac{24}{25},-\frac{24}{25},0.3395401149712572,True,390
+451,Geometry,5,False,True,False,True,8298,7749,8191,7648,.,18 + 2\pi,18+2\pi,0.9338394793926247,False,269
+452,Geometry,5,False,False,False,False,8289,8281,8191,8191,"in two polyhedra: one with 5 faces (a square pyramid? wait, no), wait, original tetrahedron has 4 triangular faces; cutting with a plane that intersects four edges (we had four intersection points, so the cut is a quadrilateral), so each piece should have 4 original faces minus some parts, plus the new face",EF长度=√[(-√3/3)^2 + (√6/3)^2]=√[(1/3)+(2/3)]=√1=1，正确,1+2\sqrt{3},0.9990348654843769,True,255
+453,Geometry,5,False,True,False,False,8480,7966,8191,7672,. i need to think about it,1,1\frac{4}{5},0.9393867924528302,True,646
+454,Prealgebra,5,True,True,True,True,1251,920,1164,842,12\pi,12\pi,12\pi,0.7354116706634692,True,229
+455,Counting & Probability,5,True,True,True,True,1726,1850,1618,1744,28,28,28,1.0718424101969872,True,291
+456,Algebra,5,True,True,True,True,2860,2184,2790,2118,81,81,81,0.7636363636363637,True,198
+457,Counting & Probability,5,False,True,True,True,8342,2233,8191,2103,definitely 540,540,540,0.2676816111244306,True,363
+458,Intermediate Algebra,5,False,True,False,True,8328,3418,8191,3287,. i need to think about it,0,0,0.41042267050912584,False,345
+459,Intermediate Algebra,5,False,False,False,False,8285,8286,8191,8191,. i need to think about it,-1（在根中），符合；c=-1时，结果是-1，在根中，符合,6,1.00012070006035,True,258
+460,Algebra,5,True,True,True,True,1601,1851,1522,1774,2\sqrt{5},2\sqrt{5},2\sqrt{5},1.156152404747033,True,218
+461,Number Theory,5,True,True,True,True,6254,2404,6145,2291,6,6,6,0.3843939878477774,True,277
+462,Counting & Probability,5,True,True,True,True,2066,1769,1992,1701,\frac{13}{18},\frac{13}{18},\frac{13}{18},0.856243949661181,True,209
+463,Algebra,5,True,True,True,True,6735,3635,6605,3510,0,0,0,0.5397178916109874,True,319
+464,Precalculus,5,False,False,False,False,8513,8276,8191,8191,". let's verify with coordinates: u=(a,0,0), v=(-a,0,0), so m=(0,0,0) (origin), uv=2a, pm² = x² + y² + z² if p=(x,y,z), then pu² + pv² = (x-a)² + y² + z² + (x+a)² + y² + z² = 2x² + 2a² + 2y² + 2z² = 2(x² + y² + z²) + 2a² = 2pm² + (uv)²/2, since uv=2a ⇒ (uv)²/2 = 4a²/2 = 2a²",整数，这说明我哪里错了？或者题目中的“正八面体”可能有不同的定义？,\sqrt{66},0.9721602255374133,True,467
+465,Precalculus,5,True,True,True,True,7026,2677,6807,2460,144,144,144,0.3810133788784515,True,496
+466,Intermediate Algebra,5,False,True,True,True,8349,3427,8191,3269,-\dfrac{3}{8},-\frac{3}{8},-\frac{3}{8},0.41046831955922863,True,386
+467,Precalculus,5,True,True,True,True,3917,3507,3754,3343,7,7,7,0.8953280571866225,True,394
+468,Intermediate Algebra,5,False,True,False,True,8283,6707,8191,6614,. i need to think about it,16,16,0.8097307738742001,False,246
+469,Intermediate Algebra,5,False,True,False,True,8293,7515,8191,7415,"! great, so both methods agree",-2,-2,0.9061859399493549,False,259
+470,Algebra,5,True,True,True,True,5530,2211,5404,2091,12,12,12,0.3998191681735985,True,308
+471,Counting & Probability,5,True,True,True,True,6177,2607,6073,2503,28800,28800,28800,0.4220495386109762,True,279
+472,Intermediate Algebra,5,False,False,False,False,8278,8278,8191,8191,"(since |1 + z|² = 2 + 2cosθ, so yes, same thing)",y²=1 - x²=1 - 49/64=15/64，y=±√15/8，存在这样的复数z,\frac{13}{4},1.0,True,234
+473,Intermediate Algebra,5,False,False,False,False,8337,8329,8191,8191,in integer >1,216 ≥ 96³/n ⇒ n≥96³/216= (9,64,0.9990404222142257,True,338
+474,Prealgebra,5,True,True,True,True,4261,1614,4147,1501,9,9,9,0.3787843229288899,True,285
+475,Precalculus,5,True,True,True,True,7506,3537,7397,3433,\begin{pmatrix} \dfrac{1}{5} \\ -\dfrac{18}{5} \end{pmatrix},\begin{pmatrix} \dfrac{1}{5} \\ -\dfrac{18}{5} \end{pmatrix},\begin{pmatrix} 1/5 \\ -18/5 \end{pmatrix},0.4712230215827338,True,279
+476,Geometry,5,True,True,True,True,4164,3733,4064,3631,\frac{3840}{289},\dfrac{3840}{289},\frac{3840}{289},0.8964937560038425,True,262
+477,Number Theory,5,True,True,True,True,5999,2532,5927,2464,9,9,9,0.42207034505750957,True,188
+478,Intermediate Algebra,5,False,True,True,True,8261,7349,8191,7283,", 81",81,81,0.8896017431303717,True,198
+479,Geometry,5,False,False,False,True,8306,8307,8191,8191,. i need to think about it,(14 - 2r)/√2 = r → 14 - 2r = r√2 → 14 = r(2 + √2) → r=14/(2 + √2)=14(2 - √2)/[(2,\frac{14}{3},1.0001203948952564,False,292
+480,Intermediate Algebra,5,False,True,False,True,8272,6245,8191,6166,.,\frac{1}{4},\frac{1}{4},0.7549564796905223,False,223
+481,Geometry,5,False,True,False,True,8317,7938,8191,7814,.,8,8,0.9544306841409161,False,312
+482,Geometry,5,False,False,False,False,8379,8369,8191,8191,. i need to think about it,壁虎在展开图中的坐标是：沿前墙的y方向（从左到右）为12 - 1 = 11英尺，高度z=7,2\sqrt{113},0.9988065401599237,True,440
+483,Geometry,5,False,True,False,True,8695,5817,8191,5305,. i need to think about it,160,160,0.6690051753881541,False,1073
+484,Algebra,5,False,True,False,True,8459,6844,8191,6575,. i need to think about it,6,6,0.8090790873625724,False,564
+485,Number Theory,5,False,False,False,False,8291,8294,8191,8191,. i need to think about it,m=225 < 210？不，m是数值，225 > 210，所以m=225不满足m < 210）,8,1.0003618381377397,True,261
+486,Intermediate Algebra,5,False,True,False,True,8289,5095,8191,5001,s,"(2, +\infty)","(2,\infty)",0.6146700446374713,False,253
+487,Algebra,5,True,True,True,True,8146,3273,8047,3175,4,4,4,0.40179229069481953,True,255
+488,Intermediate Algebra,5,False,False,False,False,8300,8298,8191,8191,. i need to think about it,"b=-8, c=1，",17,0.9997590361445783,True,278
+489,Algebra,5,False,True,False,True,8279,4477,8191,4392,. i need to think about it,1736,1736,0.5407657929701655,False,233
+490,Algebra,5,True,True,True,True,1959,1693,1876,1614,\dfrac{11}{2},\frac{11}{2},\frac{11}{2},0.8642164369576314,True,227
+491,Algebra,5,True,True,True,True,1951,2246,1838,2137,1 + 2i,1 + 2i,1+2i,1.151204510507432,True,289
+492,Number Theory,5,True,True,True,True,4827,1803,4750,1732,25,25,25,0.3735239279055314,True,205
+493,Prealgebra,5,False,False,False,False,8439,8279,8191,8191,. i need to think about it,从XA到DA的夹角是θ（顺时针）,\frac{270}7\text{ degrees},0.9810404076312359,True,385
+494,Algebra,5,True,True,True,True,6318,3982,6203,3867,-\dfrac{35}{9},-\dfrac{35}{9},-\frac{35}{9},0.6302627413738525,True,291
+495,Prealgebra,5,True,True,True,True,2051,2188,1956,2094,\frac{17}{50},\frac{17}{50},\dfrac{17}{50},1.0667966845441248,True,246
+496,Counting & Probability,5,False,True,False,True,8282,8097,8191,8017,. good,\dfrac{1}{2},\frac{1}{2},0.9776624003863801,False,236
+497,Intermediate Algebra,5,True,True,True,True,8027,3187,7808,2987,\dfrac{20000}{\pi},\frac{20000}{\pi},\frac{20000}{\pi},0.3970350068518749,True,480
+498,Prealgebra,5,True,True,True,True,1648,1316,1525,1204,22,22,22,0.7985436893203883,True,300
+499,Counting & Probability,5,False,False,False,False,8902,8274,8191,8191,. i need to think about it,点阵是4×(n+1)的点，而“三个大小”是指边长,19,0.929454055268479,True,783
+500,Intermediate Algebra,5,False,True,False,True,8459,5704,8191,5428,. i need to think about it,1,1,0.6743113843243882,False,601

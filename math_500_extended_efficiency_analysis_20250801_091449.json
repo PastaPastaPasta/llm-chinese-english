@@ -1,0 +1,175 @@
+{
+  "analysis_type": "extended_dataset_enhanced_efficiency_analysis",
+  "timestamp": "20250801_091449",
+  "dataset_info": {
+    "total_problems": 429,
+    "extended_evaluations": "62",
+    "successful_problems": 429
+  },
+  "statistical_measures": {
+    "difficulty_efficiency_correlation": -0.2987951669063036,
+    "difficulty_p_value": 2.6923962394482895e-10,
+    "anova_f_statistic": 10.890511815721945,
+    "anova_p_value": 2.0544441400853816e-08,
+    "trend_slope": -0.07136677201423712,
+    "trend_r_squared": 0.08927855176656582,
+    "trend_p_value": 2.692396239448123e-10
+  },
+  "hypothesis_results": {
+    "easy_similar": "False",
+    "hard_chinese": "True",
+    "significant_correlation": "True",
+    "subject_correlation": "True"
+  },
+  "efficiency_metrics": {
+    "avg_english_tokens_successful": 3947.682983682984,
+    "avg_chinese_tokens_successful": 2319.177156177156,
+    "token_efficiency_ratio_successful": 0.5874780639081317,
+    "successful_problems_count": 429,
+    "english_tokens_std": 3157.5309040435636,
+    "chinese_tokens_std": 1579.6451687194117,
+    "extended_evaluations_in_successful": 62
+  },
+  "level_efficiency_data": [
+    {
+      "level": "1",
+      "count": 41,
+      "mean_ratio": 0.9306638388495108,
+      "median_ratio": 0.9403846153846154,
+      "std_ratio": 0.20784824700760374,
+      "en_avg_tokens": 1469.7073170731708,
+      "cn_avg_tokens": 1239.3658536585365,
+      "complexity_avg": 1354.5365853658536,
+      "extended_count": "0"
+    },
+    {
+      "level": "2",
+      "count": 84,
+      "mean_ratio": 0.8203692753852858,
+      "median_ratio": 0.8367695154313723,
+      "std_ratio": 0.23134018272827,
+      "en_avg_tokens": 2257.309523809524,
+      "cn_avg_tokens": 1560.1666666666667,
+      "complexity_avg": 1908.7380952380952,
+      "extended_count": "3"
+    },
+    {
+      "level": "3",
+      "count": 94,
+      "mean_ratio": 0.7271141219008254,
+      "median_ratio": 0.7375086990419282,
+      "std_ratio": 0.2601348434876141,
+      "en_avg_tokens": 3442.691489361702,
+      "cn_avg_tokens": 2049.351063829787,
+      "complexity_avg": 2746.021276595745,
+      "extended_count": "10"
+    },
+    {
+      "level": "4",
+      "count": 113,
+      "mean_ratio": 0.7013410696415692,
+      "median_ratio": 0.6280447662936142,
+      "std_ratio": 0.4002328253455965,
+      "en_avg_tokens": 4709.424778761062,
+      "cn_avg_tokens": 2692.637168141593,
+      "complexity_avg": 3701.0309734513276,
+      "extended_count": "19"
+    },
+    {
+      "level": "5",
+      "count": 97,
+      "mean_ratio": 0.6139307269144237,
+      "median_ratio": 0.5410917816436712,
+      "std_ratio": 0.24888620165724054,
+      "en_avg_tokens": 6060.886597938144,
+      "cn_avg_tokens": 3259.298969072165,
+      "complexity_avg": 4660.092783505154,
+      "extended_count": "30"
+    }
+  ],
+  "subject_ranking_data": [
+    {
+      "subject": "Precalculus",
+      "count": 47,
+      "mean_ratio": 0.6614419372925197,
+      "std_ratio": 0.2534429633294642,
+      "avg_complexity": 4242.723404255319,
+      "avg_difficulty": 3.234042553191489,
+      "extended_count": "10",
+      "complexity_rank": 0,
+      "efficiency_rank": 0
+    },
+    {
+      "subject": "Algebra",
+      "count": 122,
+      "mean_ratio": 0.7821298744072839,
+      "std_ratio": 0.2508307033869046,
+      "avg_complexity": 2173.0532786885246,
+      "avg_difficulty": 3.2950819672131146,
+      "extended_count": "5",
+      "complexity_rank": 0,
+      "efficiency_rank": 0
+    },
+    {
+      "subject": "Counting & Probability",
+      "count": 30,
+      "mean_ratio": 0.8238570434120934,
+      "std_ratio": 0.3286612339407204,
+      "avg_complexity": 2631.9166666666665,
+      "avg_difficulty": 3.4,
+      "extended_count": "4",
+      "complexity_rank": 0,
+      "efficiency_rank": 0
+    },
+    {
+      "subject": "Prealgebra",
+      "count": 69,
+      "mean_ratio": 0.9007971281831542,
+      "std_ratio": 0.3578547933072002,
+      "avg_complexity": 1790.0217391304348,
+      "avg_difficulty": 3.260869565217391,
+      "extended_count": "2",
+      "complexity_rank": 0,
+      "efficiency_rank": 0
+    },
+    {
+      "subject": "Number Theory",
+      "count": 52,
+      "mean_ratio": 0.5801612186374988,
+      "std_ratio": 0.30827171129188163,
+      "avg_complexity": 3370.798076923077,
+      "avg_difficulty": 3.326923076923077,
+      "extended_count": "7",
+      "complexity_rank": 0,
+      "efficiency_rank": 0
+    },
+    {
+      "subject": "Intermediate Algebra",
+      "count": 80,
+      "mean_ratio": 0.6027367216175059,
+      "std_ratio": 0.25648802352835715,
+      "avg_complexity": 5036.91875,
+      "avg_difficulty": 3.4625,
+      "extended_count": "28",
+      "complexity_rank": 0,
+      "efficiency_rank": 0
+    },
+    {
+      "subject": "Geometry",
+      "count": 29,
+      "mean_ratio": 0.7742805306234491,
+      "std_ratio": 0.2857760075670611,
+      "avg_complexity": 3414.3793103448274,
+      "avg_difficulty": 3.3448275862068964,
+      "extended_count": "6",
+      "complexity_rank": 0,
+      "efficiency_rank": 0
+    }
+  ],
+  "efficiency_threshold_distribution": {
+    "Strong Chinese (< 0.7)": "201",
+    "Moderate Chinese (0.7-0.9)": "120",
+    "Similar (0.9-1.1)": "64",
+    "English Advantage (> 1.1)": "44"
+  }
+}
