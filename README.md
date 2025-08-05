@@ -1,4 +1,6 @@
-# The 40% Solution: How Chinese Mathematical Reasoning Achieves Equal Accuracy with Dramatically Fewer Tokens
+# Qwen3 Uses 40% Fewer Tokens When Reasoning in Chinese
+
+*Learned efficiency: Chinese CoT matches accuracy with shorter, more direct reasoning traces*
 
 ## Executive Summary
 
@@ -507,7 +509,7 @@ Full evaluation notebook: `math_500_evaluation.ipynb`
 If you use these findings, please cite:
 ```
 @article{bilingual_efficiency_2025,
-title={The 40% Solution: How Chinese Mathematical Reasoning Achieves Equal Accuracy with Dramatically Fewer Tokens},
+title={Qwen3 Uses 40% Fewer Tokens When Reasoning in Chinese},
 author={github.com/PastaPastaPasta},
 year={2025},
 url={https://github.com/PastaPastaPasta/llm-chinese-english}
