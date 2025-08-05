@@ -467,10 +467,6 @@ The high accuracy suggests these problems fall well within Qwen3's competence zo
 }
 ```
 
-### Prompts
-**English**: "Solve this problem. Show your work and put your answer in \\boxed{}"
-**Chinese**: "解决这个问题。展示你的工作并将答案放在\\boxed{}中"
-
 ### Data Artifacts
 - [Complete JSON results](./math_500_bilingual_results_20250731_210251.json) - Full evaluation data
 - [Comparative summary CSV](./math_500_bilingual_summary_20250731_210251.csv) - Performance metrics
