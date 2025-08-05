@@ -4,7 +4,7 @@
 
 ## Executive Summary
 
-Qwen3's Chinese Chain-of-Thought achieves the same 97% accuracy as its English CoT while using only 61.2% of the tokens—a 40% efficiency advantage that grows with problem complexity. **This contradicts established research showing English as the more efficient reasoning language in most LLMs.** Prior work generally finds higher accuracy and token-efficiency when LLMs reason in high-resource languages (often English), and even observes cross-lingual collapse—models drifting to English mid-reasoning for harder problems ([Park et al., 2025](https://arxiv.org/abs/2506.05850)). Test-time scaling studies likewise recommend letting English-centric reasoning models reason in high-resource languages ([Yong et al., 2025](https://arxiv.org/abs/2505.05408)). This study of 500 math problems reveals that for Level 5 (hardest) problems, Qwen3's Chinese CoT requires only 64.6% of its English CoT tokens—a model- and data-dependent reversal of common trends. Rather than indicating inherent language superiority, this finding suggests that training data quality and quantity drive reasoning efficiency. Models trained with extensive high-quality Chinese Chain-of-Thought data can exhibit different efficiency patterns, suggesting that reasoning efficiency is influenced by training data rather than being linguistically predetermined.
+Qwen3's Chinese Chain-of-Thought achieves the same 97% accuracy as its English CoT while using only 61.2% of the tokens—a 40% efficiency advantage that grows with problem complexity. **This contradicts established research showing English as the more efficient reasoning language in most LLMs.** Prior work generally finds higher accuracy and token-efficiency when LLMs reason in high-resource languages (often English), and even observes cross-lingual collapse—models drifting to English mid-reasoning for harder problems ([Park et al., 2025](https://arxiv.org/abs/2506.05850)). Test-time scaling studies likewise recommend letting English-centric reasoning models reason in high-resource languages ([Yong et al., 2025](https://arxiv.org/abs/2505.05408)). This study of 500 math problems reveals that for Level 5 (hardest) problems, Qwen3's Chinese CoT requires only 65% of its English CoT tokens on average—a model- and data-dependent reversal of common trends. Rather than indicating inherent language superiority, this finding suggests that training data quality and quantity drive reasoning efficiency. Models trained with extensive high-quality Chinese Chain-of-Thought data can exhibit different efficiency patterns, suggesting that reasoning efficiency is influenced by training data rather than being linguistically predetermined.
 
 ## Key Findings
 
@@ -119,7 +119,7 @@ When both languages successfully solve problems, Chinese consistently uses fewer
 
 ### The Scaling Effect: Efficiency Grows with Complexity
 
-| Difficulty | English Avg | Chinese Avg | CN/EN Ratio | Efficiency Gain |
+| Difficulty | English Avg | Chinese Avg | CN/EN Ratio* | Efficiency Gain |
 |------------|------------|-------------|-------------|-----------------|
 | Level 1    | 1,386      | 1,159       | 0.931       | 7% advantage    |
 | Level 2    | 1,951      | 1,411       | 0.832       | 17% advantage   |
@@ -127,14 +127,16 @@ When both languages successfully solve problems, Chinese consistently uses fewer
 | Level 4    | 3,659      | 2,103       | 0.716       | 28% advantage   |
 | Level 5    | 4,183      | 2,212       | 0.646       | 35% advantage   |
 
+*CN/EN Ratio shown is the average of per-problem ratios. When calculated as aggregate totals, Level 5 shows even greater efficiency (2,212/4,183 = 0.529 or 47% advantage).
+
 ![Efficiency Trend with Confidence](efficiency_trend_with_confidence.jpg)
 
 
 
 **The Complexity Correlation**: 
 - As difficulty increases, efficiency gap widens (r = -0.267, p < 0.0001)
-- Level 1 problems: Qwen3's Chinese CoT uses 93% of its English CoT tokens (minimal advantage)
-- Level 5 problems: Qwen3's Chinese CoT uses 65% of its English CoT tokens (dramatic advantage)
+- Level 1 problems: Chinese uses 93% of English tokens on average per problem
+- Level 5 problems: Chinese uses 65% of English tokens on average per problem
 - **This isn't just tokenization—it's fundamentally more efficient reasoning.** Because the CN/EN ratio widens with problem difficulty (not constant), a reasoning-strategy component is implicated beyond segmentation ([Petrov et al., 2023](https://arxiv.org/pdf/2305.15425))
 
 ### Subject-Specific Efficiency Patterns
