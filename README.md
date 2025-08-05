@@ -240,14 +240,6 @@ A detailed comparison of the reasoning patterns reveals striking differences:
 
 **Key Pattern**: The English CoT represents an anxious but thorough problem-solver leaving no stone unturned (educational but inefficient), while the Chinese CoT represents an experienced mathematician who recognizes patterns quickly and trusts their work (professional and efficient).
 
-### The Pattern: Verbose vs. Direct Reasoning
-
-Analysis of 50 cases where Chinese succeeded while English hit limits:
-- **Average English tokens at cutoff**: 8,191 (limit)
-- **Average Chinese tokens for solution**: 5,169
-- **Average efficiency gain**: 37%
-- **Success rate difference**: Chinese 100%, English 42%
-
 ## 6. Understanding the Mechanism
 
 ### It's Not Just Tokenization
